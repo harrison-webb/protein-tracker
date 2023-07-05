@@ -13,6 +13,9 @@
 		96D8BF0E2A55378A006672AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D8BF0D2A55378A006672AD /* Preview Assets.xcassets */; };
 		96D8BF102A55378A006672AD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8BF0F2A55378A006672AD /* Persistence.swift */; };
 		96D8BF132A55378A006672AD /* protein_tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96D8BF112A55378A006672AD /* protein_tracker.xcdatamodeld */; };
+		96D8BF1A2A5537F9006672AD /* ProteinInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8BF192A5537F9006672AD /* ProteinInputView.swift */; };
+		96D8BF1C2A553803006672AD /* ProteinHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8BF1B2A553803006672AD /* ProteinHistoryView.swift */; };
+		96D8BF1E2A55395F006672AD /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8BF1D2A55395F006672AD /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		96D8BF0D2A55378A006672AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96D8BF0F2A55378A006672AD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		96D8BF122A55378A006672AD /* protein_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = protein_tracker.xcdatamodel; sourceTree = "<group>"; };
+		96D8BF192A5537F9006672AD /* ProteinInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinInputView.swift; sourceTree = "<group>"; };
+		96D8BF1B2A553803006672AD /* ProteinHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinHistoryView.swift; sourceTree = "<group>"; };
+		96D8BF1D2A55395F006672AD /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				96D8BF062A553789006672AD /* protein_trackerApp.swift */,
 				96D8BF082A553789006672AD /* ContentView.swift */,
+				96D8BF192A5537F9006672AD /* ProteinInputView.swift */,
+				96D8BF1D2A55395F006672AD /* NavigationView.swift */,
+				96D8BF1B2A553803006672AD /* ProteinHistoryView.swift */,
 				96D8BF0A2A55378A006672AD /* Assets.xcassets */,
 				96D8BF0F2A55378A006672AD /* Persistence.swift */,
 				96D8BF112A55378A006672AD /* protein_tracker.xcdatamodeld */,
@@ -143,10 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D8BF1E2A55395F006672AD /* NavigationView.swift in Sources */,
+				96D8BF1A2A5537F9006672AD /* ProteinInputView.swift in Sources */,
 				96D8BF132A55378A006672AD /* protein_tracker.xcdatamodeld in Sources */,
 				96D8BF102A55378A006672AD /* Persistence.swift in Sources */,
 				96D8BF092A553789006672AD /* ContentView.swift in Sources */,
 				96D8BF072A553789006672AD /* protein_trackerApp.swift in Sources */,
+				96D8BF1C2A553803006672AD /* ProteinHistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
